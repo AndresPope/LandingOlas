@@ -1,0 +1,39 @@
+body{
+    background: rgb(0,226,255);
+    background: radial-gradient(circle, rgba(0,226,255,1) 0%, rgba(197,254,254,1) 100%);
+}
+
+.body-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.body-container h1{
+    display: flex;
+    justify-content: center;
+}
+
+.licencias{
+    display: flex;
+    justify-content: center;
+}
+
+.licencia{
+    background-color: #202023;
+    border-radius: 20px;
+    padding: 30px;
+    color: white;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.licencia h2{
+    display: flex;
+    justify-content: center;
+}
+
+.licencia li{
+    margin: 10px 0px 10px 0px;
+}
